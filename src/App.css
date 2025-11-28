@@ -1,0 +1,157 @@
+/* Глобальные стили */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 0;
+}
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.header-subtitle {
+  color: #4b5563;
+}
+.header-desc {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  color: white;
+}
+.button-blue {
+  background-color: #3b82f6;
+}
+.button-blue:hover {
+  background-color: #2563eb;
+}
+.button-green {
+  background-color: #22c55e;
+}
+.button-green:hover {
+  background-color: #16a34a;
+}
+.space-x-4 > * + * {
+  margin-left: 1rem;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 3rem 0;
+}
+.hero-text {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+.hero-stats {
+  display: flex;
+  justify-content: space-around;
+}
+.hero-stat {
+  text-align: center;
+}
+.hero-number {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+/* Sections общие */
+.section {
+  padding: 2rem 0;
+}
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Skills */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.skills-column {
+  /* Для мобильных: вертикально */
+}
+.skills-subtitle {
+  font-weight: semibold;
+}
+.skills-list {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+@media (max-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Projects */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.project-card {
+  border: 1px solid #d1d5db;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.project-title {
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Experience */
+.experience-entry {
+  margin-bottom: 1rem;
+}
+.experience-title {
+  font-weight: bold;
+}
+
+/* Contact */
+.contact {
+  text-align: center;
+  padding: 2rem 0;
+}
+.contact-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #e5e7eb;
+  padding: 1rem 0;
+  text-align: center;
+}
