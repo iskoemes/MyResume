@@ -7,9 +7,11 @@ const Contact = () => {
             <p style={{ marginBottom: '1rem' }}>
                 Я открыт для новых проектов, сотрудничество и интересных идей.
             </p>
+            <address>
             <a href="mailto:ryskeldimyrzaliev20@icloud.com" className="button button-blue contact-button">
                 Отправить сообщение
             </a>
+            </address>
         </section>
     );
 };

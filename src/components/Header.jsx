@@ -23,9 +23,11 @@ const Header = () => {
                         className="button button-blue"
                     >
                         Скачать резюме</button>
-                        <a href="mailto:ryskeldimyrzaliev20@icloud.com" className="button button-green">
+                        <address>
+                        <a href="mailto:+996770229992" className="button button-green">
                             Связаться
                         </a>
+                        </address>
                 </div>
             </div>
         </header>

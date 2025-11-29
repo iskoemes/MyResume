@@ -4,22 +4,29 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
     const projects = [
         {
-            title: '#',
-            role: '#',
-            stack: '#',
-            achievements: '#'
+            title: 'TodoList',
+            role: 'Frontend developer',
+            stack: 'React, JavaScript, HTML, CSS',
+            achievements: 'Создание функционального ToDoList с возможностью добавления, удаления и редактирования задач. Реализация фильтрации задач по статусу выполнения.',
+            image: '/todoList.png',
+            github: "https://github.com/iskoemes/TodoList"
+
         },
         {
-            title: '#',
-            role: '#',
-            stack: '#',
-            achievements: '#'
+            title: 'RikiMorty',
+            role: 'Frontend developer',
+            stack: 'React, JavaScript, HTML, CSS',
+            achievements: 'Разработка веб-приложения для просмотра информации о персонажах из сериала "Рик и Морти". Интеграция с внешним API для получения данных о персонажах и их отображение в удобном формате.',
+              image: '/rikiMorty.png',
+            github: "https://github.com/iskoemes/RikiMorty"
         },
         {
-            title: '#',
-            role: '#',
-            stack: '#',
-            achievements: '#'
+            title: 'OpenHelp',
+            role: 'Frontend developer',
+            stack: 'React, JavaScript, HTML, CSS',
+            achievements: 'Участие в разработке платформы для оказания взаимопомощи между пользователями. Реализация интерфейса для создания и поиска запросов на помощь, а также система отзывов и рейтингов для повышения доверия между участниками.',
+              image: '/openHelp.png',
+            github: "https://github.com/iskoemes/OpenHelp"
         }
     ];
 
