@@ -5,6 +5,13 @@
     box-shadow: 0 4px 24px rgba(0,0,0,0.08);
 }
 
+.icon-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
 .header-container {
     max-width: 900px;
     margin: 0 auto;
@@ -238,6 +245,7 @@
     gap: 0.7rem;
 }
 
+
 .project-card:hover {
     transform: translateY(-6px) scale(1.03);
     box-shadow: 0 6px 32px rgba(56,232,195,0.13);
@@ -291,7 +299,7 @@
 
 /* ExperienceEntry */
 
-/* ...existing code... */
+
 
 .experience-entry {
     background: #fff;
@@ -444,6 +452,19 @@
 
 .contact-button:hover {
     background: #174ea6;
+}
+
+.icon {
+    display: flex;
+    gap: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.icon-img {
+    width: 40px;
+    height: 40px;
 }
 
 /* Footer */

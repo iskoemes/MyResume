@@ -20,13 +20,6 @@ const About = () => {
                     </ul>
                 </div>
                 <div className="skills-column">
-                    <div className="skills-subtitle">DevOps</div>
-                    <ul className="skills-list">
-                        <li>Git</li>
-                        <li>GitHub</li>
-                    </ul>
-                </div>
-                <div className="skills-column">
                       <h3 className="skills-subtitle">Tools</h3>
                           <ul className="skills-list">
                              <li>Git</li>

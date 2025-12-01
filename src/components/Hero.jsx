@@ -3,24 +3,17 @@ import CountUp from "react-countup";
 
 const Hero = () => {
     return (
-        <section className="helo">
-            <p className="hero-text">
-                Разрабатываю веб-приложения с упором на скорость, 
-                архитектуру и удобство. Создаю интерфейсы, которые не только красивы, 
-                но и интуитивны в использовании.
-            </p>
+        <section className="hero">
             <div className="hero-stats">
                 <div className="hero-stat">
-                    <CountUp end={"Нет"} suffix="+" duration={2} className="hero-number" />
-                    <p>опыта работы</p>
-                </div>
-                <div className="hero-stat">
-                    <CountUp end={3} suffix="+" duration={2} className="hero-number" />
-                    <p>Проектов завершено</p>
-                </div>
-                <div className="hero-stat">
-                    <CountUp end={0} suffix="+" duration={2} className="hero-number" />
-                    <p>Довольных клиентов</p>
+                    <h1 className="section-title">Производственная практика в Beeline.kg</h1>
+                    <p className="hero-text">Проходил производственную практику в компании Beeline.kg,
+                        где занимался выполнением задач по фронтенд-разработке, 
+                        изучал внутренние процессы команды,
+                        работал с современными инструментами и участвовал в решении реальных
+                        рабочих кейсов. Получил опыт командного взаимодействия,
+                      оптимизации кода и разработки пользовательского интерфейса
+                    </p>
                 </div>
             </div>
         </section>
