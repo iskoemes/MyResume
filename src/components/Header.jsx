@@ -30,7 +30,7 @@ const Header = () => {
             <div className="header-container">
                 <div>
                     <h1 className="header-title">Рыскелди Мырзалиев</h1>
-                    <img src="profile.jpg" alt="profile" className="icon-image" />
+                    {/* <img src="profile.jpg" alt="profile" className="icon-image" /> */}
                     <p className="header-subtitle">Frontend Developer</p>
                     <p className="header-desc">JavaScript · TypeScript · React</p>
                 </div>

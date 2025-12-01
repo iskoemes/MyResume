@@ -31,7 +31,7 @@ const Projects = () => {
     ];
 
     return (
-        <section className="section">
+        <section className="">
             <h2 className="section-title">Мои проекты</h2>
             <div className="projects-grid">
                 {projects.map((proj, index) => (

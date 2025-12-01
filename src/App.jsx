@@ -16,8 +16,8 @@ function App() {
       <Header />
 
       <main style={{ maxWidth: '1200px', margin: '0 auto', padding: '2rem 1rem' }}>
-        <Hero />
         <About />
+        <Hero />
         <Skills />
         <Projects />
         {/* <Experience /> */}
